@@ -1,7 +1,6 @@
 from flask import Flask, request, make_response, jsonify
-import json
 import sqlite3
-from db import connection
+import db
 
 app = Flask(__name__)
 
