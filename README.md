@@ -20,6 +20,7 @@ python main.py
 
 
 ## Note To Self
+>
 >> A cursor is required to execute fetch queries
 > 
 >> Need to execute the commit() method on the connection object to save a connection/query result
@@ -27,3 +28,4 @@ python main.py
 >> Also need to close the connection after executing a query
 > 
 >> Can use the rollback() method to undo a transaction
+>
